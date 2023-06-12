@@ -1,0 +1,329 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(157, 155, 228, 0.82);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(17, 20, 175, 0.66);
+  border-radius: 20px;
+  border: 3px solid rgba(157, 155, 228, 0.82);
+}
+
+body{
+    background-color: black;
+    background-image: linear-gradient(to bottom, rgba(157, 155, 228, 0.82), rgba(17, 20, 175, 0.66));
+    /*overflow: hidden*/
+}
+
+header{
+    background-color: #514fa9ec;
+    box-shadow: -5px 10px 15px #3331babd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+}
+
+nav{
+    padding: 2px 2px 2px 2px;
+    width: 480px;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 5px 5px 5px 5px;
+    align-items: center;
+}
+
+header ul a{
+    padding: 10px 10px 10px 10px;
+}
+
+header li {
+    transition: 0.3s;
+}
+
+header li:hover {
+    font-size: 20px;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tela1{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    
+}
+
+.tela1 p{
+    font-size: 120%;
+    text-align: justify;
+    width: 90%;
+}
+
+.fotoInicio{
+    height: 396px;
+    width: 440px;
+    margin-left: 20px;
+    border-radius: 40px;
+}
+
+.textoInicio{
+    padding: 100px 5px 5px 50px;
+    
+}
+
+.tela2 {
+    margin-top: 50px;
+}
+
+.materia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.linhaM{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:space-between ;
+
+    margin-top: 9px;
+    
+    border-color: rgb(255, 248, 248);
+    width: 550px;
+    height: 0px;
+}
+
+.elementosMateria{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cards{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: medium;
+}
+
+.cards a{
+    text-decoration: none;
+    height: 300px;
+    width: 200px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+.cards p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+.laptop{
+    height: 100%;
+    width: 300px;
+    padding: 0px 0px 0px 0px;
+    margin-top: 30px;
+}
+
+.cardLinguagem{
+   background-image: url(../image/LPFoto.jpg);
+   background-size: cover;
+   height: 300px;
+   width: 200px;
+   border-radius: 20px;
+   font-size: 80%;
+}
+
+.cardLinguagem:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cardAutomação {
+    background-image: url(../image/automaçãofoto.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 80%;
+}
+
+.cardAutomação:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cardRedes {
+    background-image: url(../image/redesfoto.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 80%;
+}
+
+.cardRedes:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cardBanco {
+    background-image: url(../image/bdfotos.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 80%;
+}
+
+.cardBanco:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cardCiencia {
+    background-image: url(../image/cdfoto.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 80%;
+}
+
+.cardCiencia:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.gradiente {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.865), rgba(0, 0, 0, 0.089));
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.tela3 {
+    margin-top: 50px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.linhaS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 550px;
+    height: 0px;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.fotoap {
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+}
+
+.apresentacao p {
+    font-size: 120%;
+    text-align: justify;
+    width: 90%;
+    padding: 100px;
+}
+
+
+footer {
+    background-color: #514fa9ec;
+    box-shadow: 5px -10px 15px #3331babd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+}
+
+.redesocial {
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imglinkedin {
+    height: 30px;
+    width: 30px;
+}
+
+.imggithub {
+    height: 30px;
+    width: 30px;
+}
+
+.imginstagram {
+    height: 30px;
+    width: 30px;
+}

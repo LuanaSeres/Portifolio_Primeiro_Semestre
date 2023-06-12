@@ -1,0 +1,497 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(157, 155, 228, 0.82);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(17, 20, 175, 0.66);
+  border-radius: 20px;
+  border: 3px solid rgba(157, 155, 228, 0.82);
+}
+
+body{
+    background-color: black;
+    background-image: linear-gradient(to bottom, rgba(157, 155, 228, 0.82), rgba(17, 20, 175, 0.66));
+    /*overflow: hidden*/
+}
+
+header{
+    background-color: #514fa9ec;
+    box-shadow: -5px 10px 15px #3331babd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+}
+
+nav{
+    padding: 2px 2px 2px 2px;
+    width: 100%;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 5px 5px 5px 5px;
+    align-items: center;
+}
+
+header ul a{
+    padding: 10px 10px 10px 10px;
+}
+
+header li {
+    transition: 0.3s;
+}
+
+header li:hover {
+    font-size: 20px;
+}
+
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tela1 {
+    padding-top: 70px;
+    height: 75vh;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.img1 {
+    height: 300px;
+    width: 500px;
+
+    background-color: darkgrey;
+}
+
+.apresentacao {
+    width: 600px;
+    padding: 100px 5px 5px 5px;
+    text-align: justify;
+}
+
+.tela2 {
+    margin-top: 10px;
+    height: 70vh;
+}
+
+.receitas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.receitas h3 {
+    width: 145px;
+}
+
+.linhaR {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    
+    margin-top: 9px;
+    
+    border-color: rgb(255, 248, 248);
+    width: 520px;
+    height: 0px;
+}
+
+.conteudo1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.texto1 {
+    width: 500px;
+    text-align: justify;
+}
+
+.tela3 {
+    margin-top: 10px;
+    height: 70vh;
+}
+
+.curriculo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.curriculo h3 {
+    width: 80px;
+}
+
+.linhaC {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    
+    margin-top: 9px;
+    
+    border-color: rgb(255, 248, 248);
+    width: 550px;
+    height: 0px;
+}
+
+.conteudo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.texto2 {
+    width: 500px;
+    text-align: justify;
+}
+
+.tela4 {
+    margin-top: 10px;
+    height: 70vh;
+}
+
+.folha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.folha h3 {
+    width: 185px;
+}
+
+.linhaF {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 495px;
+    height: 0px;
+}
+
+.conteudo3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.texto3 {
+    width: 500px;
+    text-align: justify;
+}
+
+.tela5 {
+    margin-top: 10px;
+    height: 70vh;   
+}
+
+.conversor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.conversor h3 {
+    width: 95px;
+}
+
+.linhaC2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 545px;
+    height: 0px;
+}
+
+.conteudo4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.texto4 {
+    width: 500px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #514fa9ec;
+    box-shadow: 5px -10px 15px #3331babd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+}
+
+.redesocial {
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imglinkedin {
+    height: 30px;
+    width: 30px;
+}
+
+.imggithub {
+    height: 30px;
+    width: 30px;
+}
+
+.imginstagram {
+    height: 30px;
+    width: 30px;
+}
+
+
+.arduino {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.arduino h3 {
+    width: 70px;
+}
+
+.linhaA {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 550px;
+    height: 0px;
+}
+
+.robotica {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.robotica h3 {
+    width: 80px;
+}
+
+.linhaR2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 550px;
+    height: 0px;
+}
+
+.cazaquistao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.cazaquistao h3 {
+    width: 205px;
+}
+
+.linhaC3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 480px;
+    height: 0px;
+}
+
+.rede {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.rede h3 {
+    width: 80px;
+}
+
+.linhaR3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 550px;
+    height: 0px;
+}
+
+.protocolo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.protocolo h3 {
+    width: 190px;
+}
+
+.linhaP {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 490px;
+    height: 0px;
+}
+
+.mer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.mer h3 {
+    width: 300px;
+}
+
+.linhaM {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 440px;
+    height: 0px;
+}
+
+.der {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.der h3 {
+    width: 315px;
+}
+
+.linhaD {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 430px;
+    height: 0px;
+}
+
+.fisico {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.fisico h3 {
+    width: 124px;
+}
+
+.linhaMF {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 525px;
+    height: 0px;
+}
