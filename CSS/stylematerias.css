@@ -90,8 +90,6 @@ a {
 .img1 {
     height: 300px;
     width: 500px;
-
-    background-color: darkgrey;
 }
 
 .apresentacao {
@@ -640,4 +638,9 @@ footer {
     margin-top: 25px;
     width: auto;
     height: 200px;
+}
+
+video {
+    height: 300px;
+    width: 500px;
 }
