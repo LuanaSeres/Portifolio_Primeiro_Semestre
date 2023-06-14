@@ -189,6 +189,48 @@ a {
     height: 70vh;
 }
 
+.html5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.html5 h3 {
+    width: 60px;
+}
+
+.linhaH {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 560px;
+    height: 0px;
+}
+
+.conteudo3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.texto3 {
+    width: 500px;
+    text-align: justify;
+}
+
+.tela5 {
+    margin-top: 10px;
+    height: 70vh;
+}
+
 .folha {
     display: flex;
     flex-direction: row;
@@ -213,7 +255,7 @@ a {
     height: 0px;
 }
 
-.conteudo3 {
+.conteudo4 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -221,12 +263,12 @@ a {
     margin-top: 30px;
 }
 
-.texto3 {
+.texto4 {
     width: 500px;
     text-align: justify;
 }
 
-.tela5 {
+.tela6 {
     margin-top: 10px;
     height: 70vh;   
 }
@@ -255,7 +297,7 @@ a {
     height: 0px;
 }
 
-.conteudo4 {
+.conteudo5 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -263,7 +305,7 @@ a {
     margin-top: 30px;
 }
 
-.texto4 {
+.texto5 {
     width: 500px;
     text-align: justify;
 }
@@ -494,4 +536,108 @@ footer {
     border-color: rgb(255, 248, 248);
     width: 525px;
     height: 0px;
+}
+
+
+.estatistica {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.estatistica h3 {
+    width: 91px;
+}
+
+.linhaE {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 545px;
+    height: 0px;
+}
+
+.python {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.python h3 {
+    width: 62px;
+}
+
+.linhaP {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 560px;
+    height: 0px;
+}
+
+.titanic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.titanic h3 {
+    width: 188px;
+}
+
+.linhaT {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+
+    margin-top: 9px;
+
+    border-color: rgb(255, 248, 248);
+    width: 497px;
+    height: 0px;
+}
+
+
+.html {
+    margin-top: 25px;
+    width: auto;
+    height: 200px;
+}
+
+.automacao {
+    margin-top: 25px;
+    width: auto;
+    height: 200px;
+}
+
+.banco {
+    margin-top: 25px;
+    width: auto;
+    height: 200px;
+}
+
+.ciencia {
+    margin-top: 25px;
+    width: auto;
+    height: 200px;
+}
+
+.redes {
+    margin-top: 25px;
+    width: auto;
+    height: 200px;
 }
