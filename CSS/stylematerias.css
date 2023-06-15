@@ -100,7 +100,7 @@ a {
 
 .tela2 {
     margin-top: 10px;
-    height: 80vh;
+    height: 120vh;
 }
 
 .conteudo {
@@ -123,7 +123,7 @@ a {
     margin-top: 9px;
     
     border-color: rgb(255, 248, 248);
-    width: 520px;
+    width: 550px;
     height: 0px;
 }
 
@@ -136,7 +136,7 @@ a {
 }
 
 .cont{
-    width: 600px;
+    width: 500px;
 }
 
 .receitas {
