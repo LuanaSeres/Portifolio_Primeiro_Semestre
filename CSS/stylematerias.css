@@ -100,7 +100,43 @@ a {
 
 .tela2 {
     margin-top: 10px;
-    height: 70vh;
+    height: 80vh;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.conteudo h3 {
+    width: 88px;
+}
+
+.linhaCO {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    
+    margin-top: 9px;
+    
+    border-color: rgb(255, 248, 248);
+    width: 520px;
+    height: 0px;
+}
+
+.resumo_materias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.cont{
+    width: 600px;
 }
 
 .receitas {
@@ -306,6 +342,11 @@ a {
 .texto5 {
     width: 500px;
     text-align: justify;
+}
+
+.tela7 {
+    margin-top: 10px;
+    height: 70vh;
 }
 
 footer {
@@ -645,7 +686,7 @@ video {
     width: 500px;
 }
 
-.imgrede {
+.imgAuto {
     height: 300px;
     width: 500px;
 }
